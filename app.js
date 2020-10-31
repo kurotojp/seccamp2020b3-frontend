@@ -1,6 +1,8 @@
 // Fill in with your values
-const POST_ENDPOINT = 'https://seccamp2020b3-98.azurewebsites.net/api/post'
-const TIMELINE_ENDPOINT = 'https://seccamp2020b3-98.azurewebsites.net/api/timeline'
+//const POST_ENDPOINT = 'https://seccamp2020b3-98.azurewebsites.net/api/post'
+const POST_ENDPOINT = 'https://seccamp2020b3-13.azurewebsites.net/api/post'
+//const TIMELINE_ENDPOINT = 'https://seccamp2020b3-98.azurewebsites.net/api/timeline'
+const TIMELINE_ENDPOINT = 'https://seccamp2020b3-13.azurewebsites.net/api/timeline'
 
 function updateUI() {
   const isLoggedIn = localStorage.getItem('id_token');
